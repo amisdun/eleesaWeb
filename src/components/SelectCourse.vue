@@ -1,5 +1,6 @@
 <template>
   <div id="main">
+  <title>ELEESA FORUM</title>
     <div class="jumbotron jumbotron-fluid shadow-lg p-3 mb-5 bg-white rounded" v-if="show" :class="[w3-animate-bottom]">
     <img class="card-img-top w3-padding w3-animate-zoom" src="@/assets/eleesa_logo.jpg" alt="Eleesa logo">
         <p class="bg-info text-white shadow-lg p-3 mb-5 rounded display-4 w3-margin-top w3-animate-left fonts">{{msg}}</p>
@@ -97,9 +98,6 @@ export default {
         let program = this.myProgram;
         let level = this.myLevel;
         let sem = this.mySemester;
-        console.log(program);
-        console.log(level);
-        console.log(this.mySemester);
 
         this.axios({
           url: `${this.endPoint}/${program}/${level}/${sem}`,
