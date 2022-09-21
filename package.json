@@ -22,7 +22,7 @@
     "vue": "^2.6.10",
     "vue-axios": "^2.1.4",
     "vue-multiselect": "^2.1.6",
-    "vuetify": "^2.0.0"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
